@@ -1,4 +1,6 @@
 # TITANIC DATA ANALYSIS WITH EXCEL
+![Screenshot (60)](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/451f78cc-fceb-45b8-a7b4-fb46f1f3e75c)
+
 
 ### Project Overview
 
