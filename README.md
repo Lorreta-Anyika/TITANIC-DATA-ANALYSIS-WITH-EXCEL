@@ -101,7 +101,7 @@ Based on the analysis, I recommend the following actions:
 3. Deploy safety protocols to the sites of the demographics with lesser survival rates.
 4. To achieve the above, glean insights from the habits prevalent in the demographics with higher survival rate
 5.  Passengers are adviced to travel with less family size. In emergency situations, it is easier to manage.
-6.  The younglings and elderly are to extremely cautious when traveling. They have lowe survival rate.
+6.  The younglings and elderly are to extremely cautious when traveling. They have loweR survival rate.
 
 The following tools were quite useful in this analysis	
 	1. functions for data cleaning
