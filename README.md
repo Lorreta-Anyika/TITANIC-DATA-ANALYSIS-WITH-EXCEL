@@ -24,49 +24,82 @@ I performed the following in the data preparation phase:
 7. Title: I extracted the title of the passenger from the column 'name'.
 8. Ticket: it had so many duplicates. First I removed the '/' and '.'.Then I extracted the first two letters like 'A5' and removed the many duplicate values. Yet I was not satisfied with the number after the count of each set. So for all the tickets with '1' as the count, I changed them to single. This helped minimze the tickets from 891 to just 23 unique values.
 9. Creating dummies before uploading to python or R: the dumies are created for the string values and NOT NUMBERS LIKE THE FARE_1, AGE_1. things to Note: 1) you transpose the unique vales in you working sheet 2.) you delete one before creating the hot codes
+10. Data cleaning and formatting
 
-![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/d7a4c9f6-d565-45fe-8476-47b0db27d5f0)
-
-5. Checks for consistency in the quantity and gender columns
-Data cleaning and formatting
-Exploratory Data Analysis
+### Exploratory Data Analysis
 EDA involved exploring the sales data to answer key questions:
+1. How do passenger demographics such as age, gender, and passenger class correlate with survival outcomes, and how can we leverage this information to tailor our travel packages and services?
+2. Can we identify any patterns or trends in passenger travel preferences, such as ticket class, cabin location, or port of embarkation, that may inform our marketing strategies and service offerings?
+3. Are there any insights from the analysis that suggest opportunities for enhancing safety measures or risk mitigation strategies in our travel operations?
+4. How can we segment passengers based on their characteristics and travel preferences to personalize our marketing campaigns and promotional offers effectively?
+5. Are there any outliers or anomalies in the dataset that may require further investigation, and how can we address them to ensure the accuracy and reliability of our analysis?
+6. What visualization techniques in Excel can effectively communicate our findings to stakeholders and facilitate data-driven decision-making within our organization?
+7. How can we leverage historical insights from the Titanic dataset to anticipate and mitigate potential risks or challenges in our travel operations, especially in emergency scenarios?
+8. Are there any additional data sources or external datasets that we can incorporate into our analysis to enrich our understanding of passenger behavior and preferences?
+9. How can we use Excel to automate repetitive tasks in data preprocessing, analysis, and reporting, to streamline our analytical workflows and improve efficiency in decision-making processes?
 
-Compare the sales and orders using chart
-Which month got the highest sales and orders?
-Who purchased more-men or women in 2022?
-What are differnt order status in 2022?
-List top 10 states contributing to the sales?
-Relation between age and gender based on number
-Which channel is contributing to maximum sales?
-Highest selling category?
-Data Anaysis
-Using pivotTable, I created charts for:
 
-Amount Vs Order ID Vs Month
-Gender Vs Amount
-Order Vs Status
-Ship-state vs Amount
-Top 5 sales
-Age Group vs Order ID
-Results/ Findings
+### Data Anaysis
+Using pivotTable, I summarized the survival rate using the new attribute i extracted while cleaning; such as:
+1. Age
+2. Sex
+3. Family Size
+4. Fare
+5. Title
+6. Cabin
+7. Ticket
+For the passenger travel preferences, i used PivotTable to check what demographics prefer most. Such demographics include:
+1. Ticket
+2. Pclass
+3. Cabin
+4. Embarkation
+
+### Results/ Findings
 The analyss results are summarized as follows:
+**TRAVEL PREFERENCE ANALYSIS**
+From observation, passengers were more in the "S" embarkation port, purchased tickets of type "1601" and occupied "E121" cabin.	
+This trend informs marketing strategies such as focusing marketing campaigns on promoting travel packages departing from "S" port, featruing the tickets and cabin	
+for the opportunities for enhacing safety measure and risk mitigation, since "E121" has highest occupancy rate, safety protocls sholud be deployed more here.	
+**Survival Rate** 
+From Analysis, I observed that the following set of people have higher survival rates	
+	1.Middle-aged Passengers
+	2. female Passengers
+	3. females who are unmarried i.e. with title of 'Miss'
+	4. embarkation port 'S'
+	5. smaller family size
 
-March had the highest sales
-Women purchase more than men
-Maharatrash has the highest sales by state.
-Recommendations
+ **Visualization Techniques in Excel to Convey Insights**
+For this project, I made use of		
+	1. PivotTable	
+	2. Charts	
+		- Pie
+		- Bar
+		 -Graphs
+**Use of Excel to perform Repetitve Tasks**
+ 
+### Recommendation 
+
 Based on the analysis, I recommend the following actions:
 
-Provide more of female products since those are their main customers
-efforts must be made to idenfify why sales drop dratsically from August and act accordingly.
-Limitations
-None
+1. Channel marketing and campaigns to these demographics of high survival rate 
+2. Provide them with incentives to retain and increases their numbers
+3. Deploy safety protocols to the sites of the demographics with lesser survival rates.
+4. To achieve the above, glean insights from the habits prevalent in the demographics with higher survival rate
+5.  Passengers are adviced to travel with less family size. In emergency situations, it is easier to manage.
+6.  The younglings and elderly are to extremely cautious when traveling. They have lowe survival rate.
+
+The following tools were quite useful in this analysis	
+	1. functions for data cleaning
+	2. the fill and flash fill 
+	3. the 'create menu selection'
+
+### Limitations
+
+I observed that the tickets without text strings are higher. I grouped them into 'xxx' during cleaning to have them all in one place and get a more accurate analysis.
+
 
 Refrences
-Rishab Mishra
 
-Her Data projects
 
 😄
 
