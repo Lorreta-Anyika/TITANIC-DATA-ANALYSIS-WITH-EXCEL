@@ -1,10 +1,9 @@
 # TITANIC DATA ANALYSIS WITH EXCEL
-![Screenshot (60)](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/451f78cc-fceb-45b8-a7b4-fb46f1f3e75c)
-
-
 ### Project Overview
 
 Analyzing the Titanic dataset to derive meaningful insights that can impact a travel and tourism company. By analyzing this dataset, we aim to gain a deeper understanding of passenger demographics, travel patterns, and factors influencing survival outcomes. This analysis will enable us to tailor our marketing strategies, enhance customer experiences.
+
+![Screenshot (60)](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/451f78cc-fceb-45b8-a7b4-fb46f1f3e75c)
 
 ### Data Sources
 
@@ -50,11 +49,25 @@ Using pivotTable, I summarized the survival rate using the new attribute i extra
 5. Title
 6. Cabin
 7. Ticket
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/f716e5fb-6e77-4430-a0b7-51217b430d23)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/2cfd8a32-898a-45e3-aedf-db6dd4bff434)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/fb3af3a2-7163-4928-bc43-05374bd52a3b)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/224f0b24-26ab-4be6-8bb3-5d34d3a4f87b)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/8b7f029a-de1f-4891-924a-229ff3dcefcb)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/5fc3a411-fb87-46c3-ac76-a26d27afb35d)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/334b2bd3-3db8-4f80-b36f-2ecc60ba51f4)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/c904a75d-47ec-4739-8361-85cebb51af12)
+
 For the passenger travel preferences, i used PivotTable to check what demographics prefer most. Such demographics include:
 1. Ticket
 2. Pclass
 3. Cabin
 4. Embarkation
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/11a4b044-a0f6-4ff9-b3db-6d99a5b2fde0)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/304d5611-bcfd-4a90-a4c8-45496fa3b1c2)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/075a278d-dd64-4327-8fb0-c713c713fd64)
+![image](https://github.com/Uccodes/TITANIC-DATA-ANALYSIS-WITH-EXCEL/assets/122783699/5a008135-b8db-41a5-8f93-12de9255e615)
+
 
 ### Results/ Findings
 The analyss results are summarized as follows:
