@@ -112,10 +112,6 @@ The following tools were quite useful in this analysis
 
 I observed that the tickets without text strings are higher. I grouped them into 'xxx' during cleaning to have them all in one place and get a more accurate analysis.
 
-
-Refrences
-
-
 😄
 
 The End. 💻
