@@ -20,7 +20,7 @@ I performed the following in the data preparation phase:
 2. Finding missing values
 3. Removal of duplicate values
 4. Clean_Cabin:  It contains many missing values so I need to go through some processes. After removing duplicates, I extracted the first letters of the values; the ones without text strings, I grouped as under "M". That way i am able to make the values less volumionous and easy to work with. The result? From 891 values to 9 unique values.
-5. Sibsp(Sibling and spouse): I needed to find the family size of the passenger. This is because it is easier to safe a passenger who is alone or with lesser family members than its counterpart.
+5. Sibsp(Sibling and spouse): I needed to find the family size of the passenger. This is because it is easier to save a passenger who is alone or with lesser family members than its counterpart.
 6. Parents and children: uses the logic of the SibSp
 7. Title: I extracted the title of the passenger from the column 'name'.
 8. Ticket: it had so many duplicates. First I removed the '/' and '.'.Then I extracted the first two letters like 'A5' and removed the many duplicate values. Yet I was not satisfied with the number after the count of each set. So for all the tickets with '1' as the count, I changed them to single. This helped minimze the tickets from 891 to just 23 unique values.
